@@ -1,29 +1,19 @@
 {
-  "name": "minsu-crawler",
+  "name": "minsu-json",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && npm run serve",
-    "serve": "node dist/app.js",
-    "build": "tsc",
-    "dev": "ts-node src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ForrestSnape/minsu-crawler.git"
+    "url": "git+https://github.com/ForrestSnape/minsu-json.git"
   },
   "author": "forrest",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ForrestSnape/minsu-crawler/issues"
+    "url": "https://github.com/ForrestSnape/minsu-json/issues"
   },
-  "homepage": "https://github.com/ForrestSnape/minsu-crawler#readme",
-  "dependencies": {
-    "mongoose": "^5.7.7"
-  },
-  "devDependencies": {
-    "typescript": "^3.6.4"
-  }
+  "homepage": "https://github.com/ForrestSnape/minsu-json#readme"
 }
